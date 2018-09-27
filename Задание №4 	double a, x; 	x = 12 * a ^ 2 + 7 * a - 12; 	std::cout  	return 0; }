@@ -1,0 +1,26 @@
+#include "stdafx.h"
+#include <iostream>
+
+
+int main()
+{
+	// Задание №1
+	std::cout << "1 " << "13 " << "49" << std::endl;
+	
+	// Задание №2
+	char sym;
+	std::cin >> sym;
+	std::cout << "1" << sym << "13" << sym << "49" << std::endl;
+
+	// Задание №3
+	int num1, num2, num3;
+	std::cin >> num1 >> num2 >> num3;
+	std::cout << num1 << " " << num2 << " " << num3 << std::endl;
+
+	//Задание №4
+	double a, x;
+	x = 12 * a ^ 2 + 7 * a - 12;
+	std::cout
+
+	return 0;
+}
