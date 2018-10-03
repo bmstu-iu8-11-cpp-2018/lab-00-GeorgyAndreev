@@ -94,14 +94,14 @@ int main()
 
     // Задание №14
     char static w[7] = {'1', '2', '3', '4', '3', '2', '1'};
-	std::cout << "Enter word: " << w << std::endl;
-	if (w[0] == w[6] && w[1] == w[5] && w[2] == w[4])
-	{
-		std::cout << "This is polindrom!" << std::endl << std::endl;
-	}
-	else
-	{
-		std::cout << "It isn`t polindrom!" << std::endl << std::endl;
-	}
+    std::cout << "Enter word: " << w << std::endl;
+    if (w[0] == w[6] && w[1] == w[5] && w[2] == w[4])
+    {
+        std::cout << "This is polindrom!" << std::endl << std::endl;
+    }
+    else
+    {
+        std::cout << "It isn`t polindrom!" << std::endl << std::endl;
+    }
     return 0;
 }
