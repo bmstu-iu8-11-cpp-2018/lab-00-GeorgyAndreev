@@ -47,7 +47,8 @@ int main()
 		x1 = (-b1) / a1;
 		std::cout << "the solution of the equation is " << x1;
 	}
-	else {
+	else
+    {
 		std::cout << "a != 0";
 	}
 
@@ -114,10 +115,11 @@ int main()
 	// Задание №14
     char w[7];
 	std::cin >> w;
-	if (w[0] == w[6] and w[1] == w[5] and w[2] == w[4]) {
+	if (w[0] == w[6] && w[1] == w[5] && w[2] == w[4]) {
 		std::cout << "This is polindrom!";
 	}
-	else {
+	else
+    {
 		std::cout << "It isn`t polindrom!";
 	}
 	return 0;
