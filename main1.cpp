@@ -1,5 +1,5 @@
 #include <iostream>
-#include "math.h"
+#include <string>
 
 int main()
 {
@@ -72,7 +72,7 @@ int main()
     std::cout << "Enter the lenght of cube: " << A << std::endl;
     P1 = A * 12;
     S1 = A * A * 6;
-    std::cout << "Perimeter of this cube is " << P1 << std::endl << "area of this cube is " << S1 << std::endl << std::endl;
+    std::cout << "Perimeter is " << P1 << std::endl << "area is " << S1 << std::endl << std::endl;
 
     // Задание №11
     double sq = 12, Per;
