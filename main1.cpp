@@ -82,7 +82,7 @@ int main()
     std::cout << "Perimeter of this square is " << Per << std::endl << std::endl;
 
     // Задание №12
-    double r1, D;
+    double r1 = 5, D;
     std::cout << "Enter radius of circle: " << r1 << std::endl;
     D = 2 * r1;
     std::cout << "Diameter of this circle is " << D << std::endl << std::endl;
