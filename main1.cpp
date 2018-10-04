@@ -16,27 +16,30 @@ int main()
     std::cout << num1 << " " << num2 << " " << num3 << std::endl << std::endl;
 
     // Задание №4
-    double a = 3, x = 65, y;
+    double a = 3,
+    x = 65;
     std::cout << "Enter a: " << a << std::endl;
     x = 12 * a*a + 7 * a - 12;
     std::cout << "x= " << x << std::endl;
     std::cout << "Enter x: " << x << std::endl;
-    y = 3 * x*x*x + 4 * x*x - 11 * x + 1;
+    double y = 3 * x*x*x + 4 * x*x - 11 * x + 1;
     std::cout << "y= " << y << std::endl << std::endl;
 
     // Задание №5
-    double v = 5, m = 10, p;
+    double v = 5,
+    m = 10;
     std::cout << "Enter body volume(m^3): " << v << std::endl;
     std::cout << "Enter body mass(kg): " << m << std::endl;
-    p = m / v;
+    double p = m / v;
     std::cout << "This body density is " << p << " (kg/m^3)" << std::endl << std::endl;
 
     // Задание №6
-    double a1 = 60, b1 = 32, x1;
+    double a1 = 60,
+    b1 = 32;
     std::cout << "Enter index a: " << a1 << std::endl;
     std::cout << "Enter index b: " << b1 << std::endl;
     if (a1 != 0) {
-        x1 = (-b1) / a1;
+        double x1 = (-b1) / a1;
         std::cout << "the solution of the equation is " << x1 << std::endl << std::endl;
     }
     else
@@ -45,46 +48,51 @@ int main()
     }
 
     // Задание №7
-    double X1 = 43, Y1 = 23, X2 = 78, Y2 = 87, dis;
+    double X1 = 43,
+    Y1 = 23,
+    X2 = 78,
+    Y2 = 87;
     std::cout << "Enter coordinates of the first point" << std::endl << "X1 = " << X1 << std::endl;
     std::cout << "Y1 = " << Y1 << std::endl;
     std::cout << "Enter coordinates of the second point" << std::endl << "X2 = " << X2 << std::endl;
     std::cout << "Y2 = " << Y2 << std::endl;
-    dis = sqrt((X2 - X1)*(X2 - X1) + (Y2 - Y1)*(Y2 - Y1));
+    double dis = sqrt((X2 - X1)*(X2 - X1) + (Y2 - Y1)*(Y2 - Y1));
     std::cout << "Distance between points is " << dis << std::endl << std::endl;
 
     // Задание №8
-    double base = 50, height = 56, P;
+    double base = 50,
+    height = 56;
     std::cout << "Enter length of base: " << base << std::endl;
     std::cout << "Enter length of height: " << height << std::endl;
-    P = 2 * sqrt(base*base / 4 + height * height) + base;
+    double P = 2 * sqrt(base*base / 4 + height * height) + base;
     std::cout << "Perimeter is " << P << std::endl << std::endl;
 
     // Задание №9
-    double r = 3, R = 5, pi, S;
-    pi = 3.1415;
+    double r = 3,
+    R = 5;
+    double pi = 3.1415;
     std::cout << "Enter the larger radius: " << R << std::endl;
     std::cout << "Enter the lesser radius: " << r << std::endl;
-    S = pi * R * R - pi * r * r;
+    double S = pi * R * R - pi * r * r;
     std::cout << "Area of this figure is " << S << std::endl << std::endl;
 
     // Задание №10
-    double A = 12, P1, S1;
+    double A = 12;
     std::cout << "Enter the lenght of cube: " << A << std::endl;
-    P1 = A * 12;
-    S1 = A * A * 6;
+    double P1 = A * 12;
+    double S1 = A * A * 6;
     std::cout << "Perimeter is " << P1 << std::endl << "area is " << S1 << std::endl << std::endl;
 
     // Задание №11
-    double sq = 12, Per;
+    double sq = 12;
     std::cout << "Enter param. of square: " << sq << std::endl;
-    Per = 4 * sq;
+    double Per = 4 * sq;
     std::cout << "Perimeter of this square is " << Per << std::endl << std::endl;
 
     // Задание №12
-    double r1 = 5, D;
+    double r1 = 5;
     std::cout << "Enter radius of circle: " << r1 << std::endl;
-    D = 2 * r1;
+    double D = 2 * r1;
     std::cout << "Diameter of this circle is " << D << std::endl << std::endl;
 
     // Задание №13
@@ -93,7 +101,7 @@ int main()
     std::cout << "Hello, " << name << ", My name is C++." << std::endl << std::endl;
 
     // Задание №14
-    static char w[7] = {'1', '2', '3', '4', '3', '2', '1'};
+    char w[7] = {'1', '2', '3', '4', '3', '2', '1'};
     std::cout << "Enter word: " << w << std::endl;
     if (w[0] == w[6] && w[1] == w[5] && w[2] == w[4])
     {
